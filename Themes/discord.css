@@ -1,13 +1,13 @@
 /**
- * @name PurpMal
+ * @name Ultra
  * @version 1.0.7
- * @author Gast#1000
- * @authorId 621713529543720970
- * @description PurpMal
- * @source https://github.com/0xG4st/PurpMal/blob/main/Themes/discord.css
- * @website https://lotuscorp.github.io/
- * @donate https://github.com/sponsors/0xG4st
- * @invite lotuscorp
+ * @author TheCommieAxolotl#0001
+ * @authorId 538487970408300544
+ * @description A Smooth, Black theme
+ * @source https://github.com/TheCommieAxolotl/BetterDiscord-Stuff/tree/main/Ultra
+ * @website https://thecommieaxolotl.netlify.app/
+ * @donate https://github.com/sponsors/thecommieaxolotl
+ * @invite g2KnUw7u7N
 */
 
 /* Imports */
@@ -310,10 +310,12 @@
 [class*="membersWrap-"]:focus-within {
     transform: translatex(-175px);
 }
+
 [class*="membersWrap-"] > [class*="members-"] {
     background-color: var(--background-primary);
     transition: background-color .2s;
     max-width: 200vw;
+    
 }
 [class*="membersWrap-"] > [class*="members-"] > div {
     background: none !important;
@@ -322,6 +324,7 @@
 [class*="membersWrap-"]:hover > [class*="members-"],
 [class*="membersWrap-"]:focus-within > [class*="members-"] {
     background-color: var(--background-secondary);
+    
 }
 [class*="membersWrap-"] [class*="membersGroup-"] {
     margin-right: auto;
@@ -329,6 +332,7 @@
     text-overflow: clip;
     direction: rtl;
     word-spacing: 1000px;
+    
 }
 [class*="membersWrap-"]:hover [class*="membersGroup-"],
 [class*="membersWrap-"]:focus-within [class*="membersGroup-"] {
@@ -371,15 +375,21 @@
 	width: 0;
 	flex-grow: 1;
 	text-overflow: ellipsis;
+    
 }
 [class*="compact-"]:not(:hover) [class*="timestampVisibleOnHover-"] {
 	display: none;
 }
 [class*="compact-"] > [id*="message-accessories-"] {
 	margin-left: 70px;
+    
 }
 
-.membersGroup-2eiWxl, .container-q97qHp {display: none;}
+/* .membersGroup-2eiWxl {
+    display: ;
+    align-items: center;
+    align-content: center;
+    } */
 
 .wrapper-1gVUIN {
     background-color: #080914;
