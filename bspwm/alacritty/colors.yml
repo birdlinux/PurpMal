@@ -1,0 +1,28 @@
+colors:
+  primary:
+    background: '#080914'
+    foreground: '#c3b9e6'
+  cursor:
+    text:   CellForeground
+    cursor: '#c3b9e6'
+  bright:
+    black:   '#8373BA'
+    red:     '#5C5283'
+    green:   '#655A8F'
+    yellow:  '#6E619C'
+    blue:    '#796AAB'
+    magenta: '#8373BA'
+    cyan:    '#8D7BCA'
+    white:   '#c3b9e6'
+  normal:
+    black:   '#8881a1'
+    red:     '#5C5283'
+    green:   '#655A8F'
+    yellow:  '#6E619C'
+    blue:    '#796AAB'
+    magenta: '#8373BA'
+    cyan:    '#8D7BCA'
+    white:   '#c3b9e6'
+
+cursor:
+  style: Beam
