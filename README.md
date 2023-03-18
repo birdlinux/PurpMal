@@ -17,6 +17,14 @@
 <center> <h1 align="left" id="themes">Themes</h1> </center>
 
 <details>
+  <summary>GTK 3.0</summary>
+  
+   ### Nautilus & gnome-control-center
+   <img src="https://user-images.githubusercontent.com/123122904/226085564-b398c9e2-0742-41af-93cc-2aa7dd74e13f.png" />
+
+</details>
+
+<details>
   <summary>Web Themes w/ Stylus</summary>
   
   ### Twitter
