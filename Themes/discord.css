@@ -575,3 +575,22 @@ svg:hover path:hover {
 .container-2sjPya {
     margin-left: -5px;
 }
+
+.tabBar-ra-EuL .addFriend-emTWY1.addFriend-emTWY1.addFriend-emTWY1, .tabBar-ra-EuL .addFriend-emTWY1.addFriend-emTWY1.addFriend-emTWY1:hover {
+    background-color: var(--colooor);
+    border: 2px solid var(--colob);
+}
+
+.tabBar-ra-EuL .addFriend-emTWY1.addFriend-emTWY1.addFriend-emTWY1[aria-selected=true] {
+    color: var(--text-link);
+}
+
+.addFriendInputWrapper-kkoSV9 {
+    background-color: var(--colooor);
+    border: 2px solid var(--colob);
+}
+
+.side-1lrxIh .themed-qqoYp3.selected-1sf9UK.item-2GWPIy, .topPill-2vcLsa .themed-qqoYp3.selected-1sf9UK.item-2GWPIy {
+    background-color: var(--colooor);
+    border: 2px solid var(--colob); 
+}
