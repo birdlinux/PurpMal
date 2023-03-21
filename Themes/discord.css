@@ -7,13 +7,14 @@
  @import url("https://fonts.googleapis.com/css2?family=Source Code Pro:wght@550&display=swap");
  @import url("https://thecommieaxolotl.github.io/BetterDiscord-Stuff/Ultra/Modules/Clients/BetterDiscord.css");
  @import url(https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css);
- :root {
+
+:root {
      --accentcolor: 151, 130, 221;
      --accentcolor2: 151, 130, 221;
      --linkcolor: 151, 130, 221;
      --text-normal: #c7c6ce;
      --text-muted: #c7c6ce;
-     --text-link: #9782dd;
+     --text-link: var(--text-link);
      --text-positive: #50dc7d;
      --text-warning: #f86e6e;
      --text-danger: #f86e6e;
@@ -22,25 +23,25 @@
      --interactive-hover: #c7c6ce;
      --interactive-active: #c7c6ce;
      --interactive-muted: #c7c6ce;
-     --background-primary: #080914;
-     --background-secondary: #080914;
-     --background-secondary-alt: #080914;
-     --background-tertiary: #080914;
+     --background-primary: var(--colot);
+     --background-secondary: var(--colot);
+     --background-secondary-alt: var(--colot);
+     --background-tertiary: var(--colot);
      --background-accent: #c7c6ce;
-     --background-floating: #080914;
-     --modal-background: #080914;
-     --channeltextarea-background: #080914;
+     --background-floating: var(--colot);
+     --modal-background: var(--colot);
+     --channeltextarea-background: var(--colot);
      --info-positive-text: #c7c6ce;
      --info-warning-text: #c7c6ce;
      --info-warning-foreground: #c7c6ce;
      --info-danger-text: #c7c6ce;
      --info-help-text: #c7c6ce;
      --status-warning-text: #000;
-     --background-mentioned: #080914;
-     --background-mentioned-hover: #080914;
+     --background-mentioned: var(--colot);
+     --background-mentioned-hover: var(--colot);
      --background-message-hover: rgba(4, 4, 5, 0.07);
-     --scrollbar-auto-thumb: #9782dd;
-     --brand-experiment: #9782dd;
+     --scrollbar-auto-thumb: var(--text-link);
+     --brand-experiment: var(--text-link);
      --brand-experiment-hover: #c7c6ce;
      --brand-experiment-560: #c7c6ce;
      --channels-default: #c7c6ce;
@@ -49,30 +50,33 @@
      --font: "Lato";
      --code-font: "Source Code Pro";
      --boost-bar: none;
+     --colooor: #0e0f1b;
+     --colot: #080914;
+     --colob: #1c1a30;
 }
  .circleIcon-3489FI {
-     color: #9782dd;
+     color: var(--text-link);
 }
  .expression-picker-chat-input-button {
      display: none;
 }
  .contents-3NembX {
-     color: #fff;
+     color: var(--text-normal);
 }
  .ping-2IpLcU {
      display: none;
 }
  .button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx, .button-1EGGcP .buttonColor-3bP3fX.buttonActive-Uc1jHx {
-     background-color: #9782dd;
+     background-color: var(--text-link);
 }
  .button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx:hover, .button-1EGGcP:hover .buttonColor-3bP3fX.buttonActive-Uc1jHx:hover {
-     background-color: #9782dd;
+     background-color: var(--text-link);
 }
  .icon-39rdLt {
-     background-color: #9782dd ;
+     background-color: var(--text-link) ;
 }
  .icon-39rdLt:hover {
-     background-color: #9782dd ;
+     background-color: var(--text-link) ;
 }
  .pictureInPictureWindow-3ms5Zy {
      display: none;
@@ -104,8 +108,8 @@
      top: 76px;
 }
  .interactive {
-     background-color: #9782dd;
-     color: #fff;
+     background-color: var(--text-link);
+     color: var(--text-normal);
 }
  [class*="title-"][class*="container-"] [class*="toolbar-"] [class*="search-"] [class*="searchBar-"] {
      background: none !important;
@@ -247,19 +251,19 @@
      margin-left: 70px;
 }
  .wrapper-1gVUIN {
-     background-color: #080914;
+     background-color: var(--colot);
 }
  .normal-qRirv5, .video-3n15R6 {
-     background-color: #080914;
+     background-color: var(--colot);
 }
  .root-2f-lk1, .flexCenter-1Vz5gs {
-     background-color: #080914;
+     background-color: var(--colot);
 }
  .nowPlayingColumn-1eCBCN {
      display: none;
 }
  .interactive-26HRN_:hover, .interactive-iyXY_x:hover, .linkButton-2NshQj:hover, .interactiveSelected-29CP8y:hover, .selected-26oxtA:hover {
-     background-color: #0e0f1b;
+     background-color: var(--colooor);
      color: var(--background-accent);
 }
  .interactive-26HRN_ {
@@ -269,7 +273,7 @@
      color: var(--background-accent);
 }
  .interactive-26HRN_.selected {
-     background-color: #0e0f1b;
+     background-color: var(---col);
 }
  @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css);
  .vc-platform-indicator>svg {
@@ -285,8 +289,8 @@
      display: none;
 }
 .markup-eYLPri code {
-  background-color: #0e0f1b;
-  border: 2px solid #1c1a30;
+  background-color: var(--colooor);
+  border: 2px solid var(--colob);
   border-radius: 10px;
   padding: 10px;
   display: inline-block;
@@ -300,8 +304,8 @@
 }
 
 .gridContainer-1cF_Ic {
-    background-color: #0e0f1b;
-    border: 2px solid #1c1a30;
+    background-color: var(--colooor);
+    border: 2px solid var(--colob);
     border-radius: 10px;
 }
 
@@ -312,64 +316,64 @@
 
 
 .controlButton-2PMNom, .contextMenuContainer-1RO4DQ{
-    background-color: #0e0f1b;
+    background-color: var(--colooor);
     border-radius: 10px;
-    border: 2px solid #1c1a30;
+    border: 2px solid var(--colob);
 }
 
 .colorable-3rVGna.red-3T8maV {
-    background-color: #0e0f1b;
-    border: 2px solid #1c1a30;
+    background-color: var(--colooor);
+    border: 2px solid var(--colob);
 }
 
 .colorable-3rVGna.red-3T8maV:hover {
-    background-color: #0e0f1b;
-    border: 2px solid #1c1a30;
+    background-color: var(--colooor);
+    border: 2px solid var(--colob);
 }
 
 .colorable-3rVGna.primaryDark-2UJt1G {
-    background-color: #0e0f1b;
+    background-color: var(--colooor);
 }
 
 .colorable-3rVGna.primaryDark-2UJt1G:hover {
-    background-color: #0e0f1b;
+    background-color: var(--colooor);
 }
 
 .colorable-3rVGna.white-11auuQ {
-    background-color: #0e0f1b;
+    background-color: var(--colooor);
 }
 
 .colorable-3rVGna.white-11auuQ:hover {
-    background-color: #0e0f1b;
+    background-color: var(--colooor);
 }
 
 .status-1ZXjSF {
-    background-color: #0e0f1b;
+    background-color: var(--colooor);
 }
 
 .iconBadge-32fMme.participating-2Z81oO {
-    background-color: #0e0f1b;
+    background-color: var(--colooor);
 }
 
 .quickSelectPopoutOption-2E2UmS{
-    background-color: #0e0f1b;
+    background-color: var(--colooor);
 }
 
 .quickSelectPopout-2F0PXw, .regionSelectPopout-3sEzVB {
-    background-color: #0e0f1b;
+    background-color: var(--colooor);
     border-radius: 10px;
 }
 
 .footer-IubaaS {
-    background-color: #0e0f1b;
+    background-color: var(--colooor);
 }
 
 .lookFilled-1H2Jvj.colorGreen-jIPCAS {
-    background-color: #0e0f1b;
-    border: 2px solid #1c1a30;
+    background-color: var(--colooor);
+    border: 2px solid var(--colob);
 }
 
 .attachButtonPlay-1ATmb5 {
-    background-color: #0e0f1b;
-    fill: #9782dd;
+    background-color: var(--colooor);
+    fill: var(--text-link);
 }
