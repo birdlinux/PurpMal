@@ -29,6 +29,19 @@
     content: url('https://media.discordapp.net/attachments/1083746259774484562/1087712976561262642/PFPNEW.png?width=412&height=412');
 } */
 
+.embedWrapper-1MtIDg, .embedFull-1HGV2S, .embed-hKpSrO, .markup-eYLPri {
+    border: none;
+}
+
+.blockquoteDivider-363utW {
+    background-color: var(--text-link);
+}
+
+blockquote {
+    background-color: var(--colooor);
+    border: 2px solid var(--colob);
+}
+
 :root, .theme-dark {
     --accentcolor: 151, 130, 221;
     --accentcolor2: 151, 130, 221;
