@@ -7,7 +7,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;200;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source Code Pro:wght@550&display=swap");
 
-:root, .theme-dark, .theme-light{
+:root, .theme-dark {
     --accentcolor: 151, 130, 221;
     --accentcolor2: 151, 130, 221;
     --linkcolor: 151, 130, 221;
