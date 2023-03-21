@@ -78,41 +78,7 @@
      display: none;
 }
 /* Message shape */
- .theme-light [data-is-author-self=false] .markup-eYLPri:not(:empty) {
-     background-color: #9782dd;
-}
- .theme-dark [data-is-author-self=false] .markup-eYLPri:not(:empty) {
-     background-color: #9782dd;
-}
- [data-is-author-self=true]>.contents-2MsGLg>.markup-eYLPri:not(:empty) {
-     background-color: #9782dd;
-     background-size: cover;
-     background-position: center;
-     background-attachment: fixed;
-}
- .container-2sjPya *,.contents-2MsGLg>.markup-eYLPri, .contents-2MsGLg>.markup-eYLPri>* {
-     --text-normal: #fff;
-     --text-link: #fff;
-     font-size: 15px;
-     line-height: 20px;
-     font-weight: 400;
-}
- .theme-light [data-is-author-self=false] .container-2sjPya *, .theme-light [data-is-author-self=false] .markup-eYLPri, .theme-light [data-is-author-self=false] .markup-eYLPri>* {
-     --text-normal: #fff;
-     --text-link: #000;
-}
- .groupStart-3Mlgv1::before, .hasContent-1y12-u::before, .messageListItem-ZZ7v6g+.scrollerSpacer-3AqkT9::before {
-     content: '';
-     display: block;
-     width: 20px;
-     height: 20px;
-     background: transparent;
-     position: absolute;
-     border-bottom-left-radius: 20px;
-     border: 5px solid var(--background-primary);
-     border-right: 0;
-     border-top: 0;
-}
+
  .groupStart-3Mlgv1::before {
      transform: translate(-20%,-156%);
 }
@@ -322,9 +288,27 @@
  .markup-eYLPri code {
      background-color: #0e0f1b;
      border: 2px solid #1c1a30;
+     border-radius: 10px;
+     border-left: 2px solid var(--text-link);
+     border-bottom-left-radius: 4px;
+     border-top-left-radius: 4px;
+     padding-top: 10px;
+     padding-left: 10px;
+     padding-bottom: 10px;
+     padding-right: 10px;
 }
 
 .closeIcon-1NwtbI>path {
     fill: var(--background-floating);
     visibility: visible;
+}
+
+.gridContainer-1cF_Ic {
+    background-color: #0e0f1b;
+    border: 2px solid #1c1a30;
+    border-radius: 10px;
+}
+
+.auto-2TJ1RH::-webkit-scrollbar-track {
+    background-color: #0e0f1b;
 }
