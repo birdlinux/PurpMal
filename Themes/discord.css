@@ -370,8 +370,8 @@
     color: var(--background-accent);
 }
 
-.interactive-26HRN_ {
-    background-color: var(--background-floating);
+.interactive-26HRN_.selected-26oxtA {
+    background-color: var(--colob);
 }
 
 .interactive-26HRN_:hover {
@@ -512,4 +512,37 @@ svg:hover path:hover {
 
 .defaultColor-1GKx81 {
     color: var(--text-link);
+}
+
+.pageBody-23bo4p {
+    background-color: var(--colob);
+}
+
+.theme-dark .container-2IKOsH, .theme-dark .header-3xB4vB {
+    background-color: var(--background-floating);
+}
+
+.theme-dark .container-1um7CU {
+    background-color: var(--colob);
+}
+
+.theme-dark .themed-Hp1KC_{
+    background-color: var(--background-floating);
+}
+.modeSelected-3DmyhH .content-1gYQeQ, .modeSelected-3DmyhH:hover .content-1gYQeQ {
+    background-color: var(--colob);
+}
+
+.modeSelected-3DmyhH:hover, .content-1gYQeQ:hover, .modeSelected-3DmyhH:hover, .content-1gYQeQ:hover {
+    background-color: var(--colob);
+}
+
+.lookFilled-1H2Jvj.colorPrimary-2-Lusz {
+    background-color: var(--colooor);
+    border: 2px solid var(--colob);
+}
+
+.lookFilled-1H2Jvj.colorPrimary-2-Lusz:hover {
+    background-color: var(--colooor);
+    border: 2px solid var(--colob);
 }
