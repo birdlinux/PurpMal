@@ -1,4 +1,4 @@
-@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css);
+ @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css);
  @import url("https://discord-custom-covers.github.io/usrbg/dist/usrbg.css");
  @import url("https://thecommieaxolotl.github.io/BetterDiscord-Stuff/Imports/Touchup.css");
  @import url("https://thecommieaxolotl.github.io/BetterDiscord-Stuff/Imports/UserBadges.css");
@@ -7,7 +7,7 @@
  @import url("https://fonts.googleapis.com/css2?family=Source Code Pro:wght@550&display=swap");
  @import url("https://thecommieaxolotl.github.io/BetterDiscord-Stuff/Ultra/Modules/Clients/BetterDiscord.css");
  @import url(https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css);
- :root, .theme-dark {
+ :root {
      --accentcolor: 151, 130, 221;
      --accentcolor2: 151, 130, 221;
      --linkcolor: 151, 130, 221;
@@ -77,7 +77,6 @@
  .pictureInPictureWindow-3ms5Zy {
      display: none;
 }
-/* Message shape */
 
  .groupStart-3Mlgv1::before {
      transform: translate(-20%,-156%);
@@ -260,17 +259,17 @@
      display: none;
 }
  .interactive-26HRN_:hover, .interactive-iyXY_x:hover, .linkButton-2NshQj:hover, .interactiveSelected-29CP8y:hover, .selected-26oxtA:hover {
-     background-color: var(--brand-experiment);
+     background-color: #0e0f1b;
      color: var(--background-accent);
 }
  .interactive-26HRN_ {
      background-color: var(--background-floating);
 }
  .interactive-26HRN_:hover {
-     color: var(--background-floating);
+     color: var(--background-accent);
 }
  .interactive-26HRN_.selected {
-     background-color: #212333;
+     background-color: #0e0f1b;
 }
  @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css);
  .vc-platform-indicator>svg {
@@ -285,18 +284,15 @@
  .button-2fCJ0o, .button-3BaQ4X, .stickerButton-1-nFh2 {
      display: none;
 }
- .markup-eYLPri code {
-     background-color: #0e0f1b;
-     border: 2px solid #1c1a30;
-     border-radius: 10px;
-     border-left: 2px solid var(--text-link);
-     border-bottom-left-radius: 4px;
-     border-top-left-radius: 4px;
-     padding-top: 10px;
-     padding-left: 10px;
-     padding-bottom: 10px;
-     padding-right: 10px;
+.markup-eYLPri code {
+  background-color: #0e0f1b;
+  border: 2px solid #1c1a30;
+  border-radius: 10px;
+  padding: 10px;
+  display: inline-block;
+  counter-reset: listing;
 }
+
 
 .closeIcon-1NwtbI>path {
     fill: var(--background-floating);
@@ -310,5 +306,70 @@
 }
 
 .auto-2TJ1RH::-webkit-scrollbar-track {
+    background-color: var(--background-floating);
+}
+
+
+
+.controlButton-2PMNom, .contextMenuContainer-1RO4DQ{
     background-color: #0e0f1b;
+    border-radius: 10px;
+    border: 2px solid #1c1a30;
+}
+
+.colorable-3rVGna.red-3T8maV {
+    background-color: #0e0f1b;
+    border: 2px solid #1c1a30;
+}
+
+.colorable-3rVGna.red-3T8maV:hover {
+    background-color: #0e0f1b;
+    border: 2px solid #1c1a30;
+}
+
+.colorable-3rVGna.primaryDark-2UJt1G {
+    background-color: #0e0f1b;
+}
+
+.colorable-3rVGna.primaryDark-2UJt1G:hover {
+    background-color: #0e0f1b;
+}
+
+.colorable-3rVGna.white-11auuQ {
+    background-color: #0e0f1b;
+}
+
+.colorable-3rVGna.white-11auuQ:hover {
+    background-color: #0e0f1b;
+}
+
+.status-1ZXjSF {
+    background-color: #0e0f1b;
+}
+
+.iconBadge-32fMme.participating-2Z81oO {
+    background-color: #0e0f1b;
+}
+
+.quickSelectPopoutOption-2E2UmS{
+    background-color: #0e0f1b;
+}
+
+.quickSelectPopout-2F0PXw, .regionSelectPopout-3sEzVB {
+    background-color: #0e0f1b;
+    border-radius: 10px;
+}
+
+.footer-IubaaS {
+    background-color: #0e0f1b;
+}
+
+.lookFilled-1H2Jvj.colorGreen-jIPCAS {
+    background-color: #0e0f1b;
+    border: 2px solid #1c1a30;
+}
+
+.attachButtonPlay-1ATmb5 {
+    background-color: #0e0f1b;
+    fill: #9782dd;
 }
