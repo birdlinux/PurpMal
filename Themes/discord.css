@@ -12,13 +12,20 @@
 /* COMMENT THESE LINES OUT IF YOU WANT NORMAL AVATARS */
 
 
-.avatar-31d8He {
+/* FRIENDS TAB */
+/* .avatar-31d8He {
     content: url('https://media.discordapp.net/attachments/1083746259774484562/1087712976561262642/PFPNEW.png?width=412&height=412');
-}
+} */
 
-.avatar-2e8lTP {
+/* CHAT TAB */
+/* .avatar-2e8lTP {
     content: url('https://media.discordapp.net/attachments/1083746259774484562/1087712976561262642/PFPNEW.png?width=412&height=412');
-}
+} */
+
+/* WHEN RINGING USER */
+/* .voiceAvatar-lRbblo {
+    content: url('https://media.discordapp.net/attachments/1083746259774484562/1087712976561262642/PFPNEW.png?width=412&height=412');
+} */
 
 :root, .theme-dark {
     --accentcolor: 151, 130, 221;
