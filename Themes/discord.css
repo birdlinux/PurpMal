@@ -40,6 +40,7 @@
 blockquote {
     background-color: var(--colooor);
     border: 2px solid var(--colob);
+    border-radius: 4px;
 }
 
 :root, .theme-dark {
