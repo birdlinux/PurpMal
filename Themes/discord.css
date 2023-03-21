@@ -8,7 +8,7 @@
 @import url("https://thecommieaxolotl.github.io/BetterDiscord-Stuff/Ultra/Modules/Clients/BetterDiscord.css");
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css);
 
-:root {
+:root, .theme-dark {
     --accentcolor: 151, 130, 221;
     --accentcolor2: 151, 130, 221;
     --linkcolor: 151, 130, 221;
@@ -491,3 +491,16 @@ svg:hover path:hover {
     background-color: var(--colooor);
     fill: var(--text-link);
 }
+
+.chat-2ZfjoI {
+    background-color: var(--colot);
+}
+
+.wrapper-1gVUIN, .root-22AK9z, .idle-39sGPO, .noChat-2UYgeE, .video-3n15R6 {
+    background-color: var(--colot);
+}
+
+/* .root-1BPI9i {
+    display: none;
+    visibility: hidden;
+} */
