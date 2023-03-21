@@ -1,29 +1,18 @@
-/**
- * @name Ultra
- * @version 1.0.7
- * @author TheCommieAxolotl#0001
- * @authorId 538487970408300544
- * @description A Smooth, Black theme
- * @source https://github.com/TheCommieAxolotl/BetterDiscord-Stuff/tree/main/Ultra
- * @website https://thecommieaxolotl.netlify.app/
- * @donate https://github.com/sponsors/thecommieaxolotl
- * @invite g2KnUw7u7N
-*/
-
-/* Imports */
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css);
 @import url("https://discord-custom-covers.github.io/usrbg/dist/usrbg.css");
 @import url("https://thecommieaxolotl.github.io/BetterDiscord-Stuff/Imports/Touchup.css");
 @import url("https://thecommieaxolotl.github.io/BetterDiscord-Stuff/Imports/UserBadges.css");
 @import url("https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;200;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source Code Pro:wght@550&display=swap");
-
-/* Source */
-/* @import url("https://thecommieaxolotl.github.io/BetterDiscord-Stuff/Ultra/Clients/betterdiscord.css"); */
 @import url("https://thecommieaxolotl.github.io/BetterDiscord-Stuff/Ultra/Modules/Clients/BetterDiscord.css");
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css);
 
 :root,
 .theme-dark {
+    --accentcolor: 151, 130, 221;
+    --accentcolor2: 151, 130, 221;
+    --linkcolor: 151, 130, 221;
     --text-normal: #c7c6ce;
     --text-muted: #c7c6ce;
     --text-link: #9782dd;
@@ -67,10 +56,6 @@
 .circleIcon-3489FI {
     color: #9782dd;
 }
-
-/* .scroller-kQBbkU .customTheme-3QAYZq .auto-2TJ1RH .scrollerBase-1Pkza4 .disableScrollAnchor-3Jzgzl .managedReactiveScroller-1LjJZ5 {
-    color: #9782dd;
-} */
 
 .expression-picker-chat-input-button {
     display: none;
@@ -122,10 +107,12 @@
     position: relative;
     overflow: visible;
 }
-/* Bubble color */
+
+
 .theme-light [data-is-author-self=false] .markup-eYLPri:not(:empty) {
     background-color: #9782dd;
 }
+
 .theme-dark [data-is-author-self=false] .markup-eYLPri:not(:empty) {
     background-color: #9782dd;
 }
@@ -136,7 +123,7 @@
     background-attachment: fixed;
 }
 
-/* Text style */
+
 .container-2sjPya *,.contents-2MsGLg>.markup-eYLPri,
 .contents-2MsGLg>.markup-eYLPri>* {
     --text-normal: #fff;
@@ -151,7 +138,8 @@
     --text-normal: #fff;
     --text-link: #000;
 }
-/* Last rounded corner */
+
+
 .groupStart-3Mlgv1::before,
 .hasContent-1y12-u::before,
 .messageListItem-ZZ7v6g+.scrollerSpacer-3AqkT9::before {
@@ -200,7 +188,6 @@
     color: #fff;
 }
 
-/*** Collapsed Search Bar ***/
 [class*="title-"][class*="container-"] [class*="toolbar-"] [class*="search-"] [class*="searchBar-"] {
   background: none !important;
   width: 24px;
@@ -229,12 +216,10 @@
   transform: scale(0.8);
 }
 
-/*** Hide chatbox when you don't have permission ***/
 [class*="channelTextAreaDisabled-"] > div {
 	display: none;
 }
 
-/*** Loading Messages Animation ***/
 [class*="blob-"]:nth-child(1),
 [style*="opacity: 0.03"],
 [style*="opacity: 0.08"] {
@@ -294,9 +279,6 @@
   }
 }
 
-
-
-/*** Collapsed members list snippet but now with a hacky way of showing the members count. ***/
 .content-yTz4x3:before { /* Fix topbar shadow */
     z-index: 12;
 }
@@ -353,7 +335,6 @@
     filter: opacity(1);
 }
 
-/*** Aligned Compect Messages ***/
 [class*="compact-"] > [class*="contents-"] {
 	display: flex;
 }
@@ -385,12 +366,6 @@
     
 }
 
-/* .membersGroup-2eiWxl {
-    display: ;
-    align-items: center;
-    align-content: center;
-    } */
-
 .wrapper-1gVUIN {
     background-color: #080914;
 }
@@ -405,4 +380,49 @@
 
 .nowPlayingColumn-1eCBCN {
     display: none;
+}
+
+.interactive-26HRN_:hover,
+.interactive-iyXY_x:hover,
+.linkButton-2NshQj:hover,
+.interactiveSelected-29CP8y:hover,
+.selected-26oxtA:hover {
+    background-color: var(--brand-experiment);
+    color: var(--background-accent);
+}
+
+.interactive-26HRN_ {
+    background-color: var(--background-floating);
+}
+
+.interactive-26HRN_:hover {
+    color: var(--background-floating);
+}
+
+.interactive-26HRN_.selected {
+    background-color: #212333;
+}
+
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css);
+
+
+.vc-platform-indicator>svg {
+    fill: var(--text-link);
+}
+
+svg path {
+    color: var(--text-link)
+}
+
+svg:hover path:hover {
+    color: var(--background-accent);
+}
+
+.button-2fCJ0o, .button-3BaQ4X, .stickerButton-1-nFh2 {
+    display: none;
+}
+
+.markup-eYLPri code {
+    background-color: #0e0f1b;
+    border: 2px solid #1c1a30;
 }
