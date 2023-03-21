@@ -571,3 +571,7 @@ svg:hover path:hover {
     transform: scale(1.3335);
     filter: brightness(1);
 }
+
+.theme-dark .emptyPage-2TGR7j, .theme-dark .scrollerContainer-y16Rs9 {
+    background-color: var(--colob);
+}
