@@ -7,6 +7,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;200;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source Code Pro:wght@550&display=swap");
 
+
+/* THESE ARE FOR THE CUSTOM AVATARS */
+/* COMMENT THESE LINES OUT IF YOU WANT NORMAL AVATARS */
+
+
+.avatar-31d8He {
+    content: url('https://media.discordapp.net/attachments/1083746259774484562/1087712976561262642/PFPNEW.png?width=412&height=412');
+}
+
+.avatar-2e8lTP {
+    content: url('https://media.discordapp.net/attachments/1083746259774484562/1087712976561262642/PFPNEW.png?width=412&height=412');
+}
+
 :root, .theme-dark {
     --accentcolor: 151, 130, 221;
     --accentcolor2: 151, 130, 221;
@@ -593,4 +606,10 @@ svg:hover path:hover {
 .side-1lrxIh .themed-qqoYp3.selected-1sf9UK.item-2GWPIy, .topPill-2vcLsa .themed-qqoYp3.selected-1sf9UK.item-2GWPIy {
     background-color: var(--colooor);
     border: 2px solid var(--colob); 
+}
+
+#app-mount .autocomplete-3NRXG8, .categoryHeader-OpJ1Ly, #app-mount .perk-19D_HN {
+    background-color: var(--colooor);
+    border: 2px solid var(--colob); 
+
 }
